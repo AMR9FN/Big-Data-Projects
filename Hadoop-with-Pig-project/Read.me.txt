@@ -1,5 +1,0 @@
-in this project we are going to write Pig scripts to find the oldest movies with five star ratings and the most rated one star movie.
-
-Technologies: hortonworks sandbox HDP 2.5 using ambari to write scripts from the ambari pig view.
-
-Dataset: movielens dataset which i included in the file named ml-100k.
