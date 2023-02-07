@@ -1,0 +1,7 @@
+to run your scripts locally write
+
+- python <script-name> u.data
+
+to run it on HDFS write
+
+- python <script-name> -r hadoop --hadoop-streaming-jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-streaming.jar u.data

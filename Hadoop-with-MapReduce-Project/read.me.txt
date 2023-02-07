@@ -1,0 +1,10 @@
+In this project we are going to write MapReduce jobs using python with MRjob library.
+
+-Script_one : break down movie ratings by ratings score.
+
+-script_two : ranking movies by their popularity.
+
+Technologies_used : Hortonworks-SandBox-2.6.5.
+
+DataSet_used : movie-lens dataset which i included in ml-100k folder.
+
