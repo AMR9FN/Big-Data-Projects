@@ -1,0 +1,11 @@
+In this project we are going to write spark scripts with python to;
+
+-Find the lowest rated movie using RDDs and DataFrames.
+
+-Find the lowest rated popular movies rated by 10 persons using also RDDS and DataFrames.
+
+-using Mllip to do movie recommendations.
+
+-Technologies used: Hortonworks sandbox HDP 2.65.
+
+-DataSet: Movielens dataset which i included in ml-100k folder.
