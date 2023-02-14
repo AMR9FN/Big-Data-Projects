@@ -1,0 +1,26 @@
+-commands
+
+-SET NAMES 'utf8';
+
+-SET CHARACTER SET 'utf8';
+
+-use movielens;
+
+-source movielens.sql;
+
+-Exploring the database tables.
+
+-show tables;
+
+-select * from movies limit 10;
+
+-describe ratings;
+
+-Now we are going to see the top rated movies with the movie names.
+
+-SELECT movies.title, COUNT(ratings.movie_id) AS ratingCount
+FROM movies
+INNER JOIN ratings
+ON movies.id = ratings.movie_id
+GROUP BY movies.title
+ORDER BY ratingCount;

@@ -1,0 +1,6 @@
+
+In this project I imported data to Mysql and used sqoop to get data from Mysql to HDFS and also to Hive and then I executed some analysis with Hive using Ambari Hive view.
+
+-technologies: Hortonworks sandbox HDP 2.5.
+
+-Dataset: movielens data set which i included in the ml-100k folder.

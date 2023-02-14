@@ -1,0 +1,6 @@
+
+This folder contain screenshots of the queries that we executed with Hive using Ambari Hive view to find ;
+
+-Most popular movies.
+
+-Movies with the highest average rating.

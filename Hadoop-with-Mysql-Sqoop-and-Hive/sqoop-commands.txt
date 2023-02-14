@@ -1,0 +1,7 @@
+Importing data from Mysql to HDFS.
+
+-sqoop import --connect jdbc:mysql://localhost/movielens -- driver com.mysql.jdbc.Driver --table movies -m 1 --username root --password hadoop
+
+Importing data from Mysql to Hive.
+
+-sqoop import --connect jdbc:mysql://localhost/movielens -- driver com.mysql.jdbc.Driver --table movies -m 1 --username root --password hadoop --hive-import
